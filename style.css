@@ -1,0 +1,11 @@
+*,
+*::before,
+*::after{
+    /* basic setup thats recommended to include at the start
+    understand the style changes but not the before or after things */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
