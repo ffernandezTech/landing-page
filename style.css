@@ -92,6 +92,10 @@ to embed it into our HTML head and these lines of codes below */
 .hero-left-btn{
     background-color: #3882F6;
     color: white;
+    /* padding: 10px; */
+    width: 100px;
+    height: 35px;
+    text-align: center;
 }
 /* setting a placeholder for an image on hero right */
 .hero-right{
@@ -172,5 +176,53 @@ to embed it into our HTML head and these lines of codes below */
     font-weight: bolder;
 }
 
+
+
+.footer-sec{
+    margin: 40px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-main{
+    
+    display: flex;
+    background-color: #3882F6;
+    
+    width: 800px;
+    height: 150px;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+    
+}
+.footer-info{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.footer-text-1{
+    color:#E5E7EB;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.footer-text-2{
+    color:#E5E7EB;
+    font-size: 15px;
+}
+
+
+.footer-btn{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 10px;
+    border: #E5E7EB solid 2px;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+}
 
 
