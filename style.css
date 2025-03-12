@@ -70,10 +70,24 @@ to embed it into our HTML head and these lines of codes below */
 /* making main hero and its items into a flex box */
 .main-hero{
     display: flex;
-    place-content: center center;
+    width: 2000px ;
+    height: auto;
     column-gap: 50px;
     padding: 40px;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    
 }
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    width: 400px ;
+    height: auto;
+    row-gap: 20px;
+}
+
 
 /* setting the font for the header on the left side of hero */
 .hero-left-header{
@@ -81,8 +95,7 @@ to embed it into our HTML head and these lines of codes below */
     color: #F9FAF8;
     font-weight: 900;
 
-    width: 400px ;
-    height: auto;
+    
 
 }
 /* font style for text under header */
@@ -106,11 +119,14 @@ to embed it into our HTML head and these lines of codes below */
 .hero-right{
     background-color: gray;
     width: 500px;
-    height: 150px;
+    height: 250px;
+
+    /* below to is make the text be centered not the DIV */
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+
 }
 
 /* making the info section into a flex container with desire padding and gap
