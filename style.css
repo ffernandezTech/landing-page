@@ -22,6 +22,8 @@ to embed it into our HTML head and these lines of codes below */
    font-family: 'Roboto';
 }
 
+/*  used 
+    border-radius: 10px; to still the rounded corners for every necessary object. */
 .container{
     display: flex;
     flex-direction: column;
@@ -96,17 +98,18 @@ to embed it into our HTML head and these lines of codes below */
     width: 100px;
     height: 35px;
     text-align: center;
+    
+    border-radius: 10px;
 }
 /* setting a placeholder for an image on hero right */
 .hero-right{
-    border: black solid 2px;
     background-color: gray;
     width: 500px;
     height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    border-radius: 10px;
 }
 
 /* making the info section into a flex container with desire padding and gap
@@ -141,6 +144,8 @@ to embed it into our HTML head and these lines of codes below */
     border: blue solid 5px;
     width: 150px;
     height: 150px;
+    
+    border-radius: 10px;
 }
 
 /* setting the desire width and text align for text under boxes. The width is the same as the boxes above. */
@@ -198,6 +203,8 @@ as well as the padding. */
     padding: 40px;
     align-items: center;
     
+    border-radius: 10px;
+    
 }
 .footer-info{
     display: flex;
@@ -228,6 +235,8 @@ as well as the padding. */
     width: 100px;
     height: 35px;
     text-align: center;
+    
+    border-radius: 10px;
 }
 
 
