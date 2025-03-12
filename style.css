@@ -70,8 +70,8 @@ to embed it into our HTML head and these lines of codes below */
 /* making main hero and its items into a flex box */
 .main-hero{
     display: flex;
-    width: 2000px ;
-    height: auto;
+    /* width: 2000px ;
+    height: auto; */
     column-gap: 50px;
     padding: 40px;
     gap: 100px;
