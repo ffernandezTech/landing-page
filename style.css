@@ -1,3 +1,14 @@
+
+/* Roboto is not supported by default and had to look up how to get it. Quick google searched lead to google font website to side the code
+to embed it into our HTML head and these lines of codes below */
+.roboto-font-change {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+  }
+
 *,
 *::before,
 *::after{
@@ -6,6 +17,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    /* setting the default font type for all the items */
+   font-family: 'Roboto';
 }
 
 
