@@ -22,4 +22,43 @@ to embed it into our HTML head and these lines of codes below */
    font-family: 'Roboto';
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main hero and nav share the same background and text color. Decided to group them together to make it easy. */
+.main-hero,
+.main-nav{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    
+}
+
+/* Making the nav into a flex box */
+.main-nav{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+   
+
+    
+}
+/* setting the font size for the nav logo */
+.main-nav .nav-header{
+    font-size: 24px;
+   
+    
+}
+/* Making our unorder list in nav into a flex box and removing  */
+.main-nav .nav-links{
+
+    list-style-type: none;
+    display: flex;
+    column-gap: 20px;
+
+}
+
+
 
