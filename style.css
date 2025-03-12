@@ -31,7 +31,7 @@ to embed it into our HTML head and these lines of codes below */
 .main-hero,
 .main-nav{
     background-color: #1F2937;
-    color: #F9FAF8;
+    
     
 }
 
@@ -48,6 +48,7 @@ to embed it into our HTML head and these lines of codes below */
 /* setting the font size for the nav logo */
 .main-nav .nav-header{
     font-size: 24px;
+    color: #F9FAF8;
    
     
 }
@@ -56,9 +57,47 @@ to embed it into our HTML head and these lines of codes below */
 
     list-style-type: none;
     display: flex;
-    column-gap: 20px;
+    column-gap: 40px;
+    
+    font-size: 18px;
+    color: #e5e7eb;
 
 }
 
+
+/* making main hero and its items into a flex box */
+.main-hero{
+    display: flex;
+    place-content: center center;
+    column-gap: 50px;
+    padding: 40px;
+}
+.hero-left-header{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+
+    width: 400px ;
+    height: auto;
+
+}
+.hero-left-p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.hero-left-btn{
+    background-color: #3882F6;
+    color: white;
+}
+.hero-right{
+    border: black solid 2px;
+    background-color: gray;
+    width: 500px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 
 
