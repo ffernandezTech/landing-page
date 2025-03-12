@@ -105,6 +105,39 @@ to embed it into our HTML head and these lines of codes below */
     
 }
 
+/* making the info section into a flex container with desire padding and gap
+    Maybe the gap isnt actually working her. Done in this way so that the header is above the boxes */
+.info-sec{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 40px;
+}
+/* header was made into a flex so I can center the text easily */
+.info-header{
+    display: flex;
+    justify-content: center;
+}
 
+/* info container is so that the boxes and text underneath have their own section */
+.info-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    margin-bottom: 25px;
+
+}
+/* Created boxes with desired look under info items */
+.info-items .info-boxes{
+    border: blue solid 5px;
+    width: 150px;
+    height: 150px;
+}
+
+/* setting the desire width and text align for text under boxes. The width is the same as the boxes above. */
+.info-items p{
+    width: 150px;
+    text-align: center;
+}
 
 
