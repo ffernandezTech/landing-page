@@ -117,6 +117,11 @@ to embed it into our HTML head and these lines of codes below */
 .info-header{
     display: flex;
     justify-content: center;
+    font: 36px;
+    font-weight: 900;
+    
+    color: #1F2937;
+
 }
 
 /* info container is so that the boxes and text underneath have their own section */
@@ -139,5 +144,33 @@ to embed it into our HTML head and these lines of codes below */
     width: 150px;
     text-align: center;
 }
+
+/* made the quote section into a flex container with the desired style */
+.giant-quote-sec{
+    display: flex;
+    padding: 40px;
+    background-color: #E5E7EB;
+    justify-content: center;
+}
+/* a container in sectin is set the "desired" width */
+.giant-quote-container{
+    /* text-align: center; */
+    width: 850px;
+
+    
+}
+/* the text in the container is getting its font style from here */
+.giant-quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+/* I thought it would be easier to set the quote creator like this. Might be an easier way. */
+.giant-quote-creator{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bolder;
+}
+
 
 
