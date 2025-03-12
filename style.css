@@ -88,6 +88,7 @@ to embed it into our HTML head and these lines of codes below */
 /* font style for text under header */
 .hero-left-p{
     font-size: 18px;
+    width: 450px;
     color: #e5e7eb;
 }
 /* setting color for button in hero left */
