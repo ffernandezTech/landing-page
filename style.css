@@ -72,6 +72,8 @@ to embed it into our HTML head and these lines of codes below */
     column-gap: 50px;
     padding: 40px;
 }
+
+/* setting the font for the header on the left side of hero */
 .hero-left-header{
     font-size: 48px;
     color: #F9FAF8;
@@ -81,14 +83,17 @@ to embed it into our HTML head and these lines of codes below */
     height: auto;
 
 }
+/* font style for text under header */
 .hero-left-p{
     font-size: 18px;
     color: #e5e7eb;
 }
+/* setting color for button in hero left */
 .hero-left-btn{
     background-color: #3882F6;
     color: white;
 }
+/* setting a placeholder for an image on hero right */
 .hero-right{
     border: black solid 2px;
     background-color: gray;
@@ -99,5 +104,7 @@ to embed it into our HTML head and these lines of codes below */
     justify-content: center;
     
 }
+
+
 
 
