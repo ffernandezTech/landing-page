@@ -201,7 +201,7 @@ to embed it into our HTML head and these lines of codes below */
 
 
 /* I noticed that if I wanted to have a white border to the foot I need to add a section and add the margin there */
-.footer-sec{
+.call-sec{
     margin: 40px 100px;
     display: flex;
     justify-content: center;
@@ -209,7 +209,7 @@ to embed it into our HTML head and these lines of codes below */
 
 /* this is the main container for the footer. Here we set the width/height and the background color. As well as the justify and align commands
 as well as the padding. */
-.footer-main{
+.call-main{
     
     display: flex;
     background-color: #3882F6;
@@ -223,28 +223,28 @@ as well as the padding. */
     border-radius: 10px;
     
 }
-.footer-info{
+.call-info{
     display: flex;
     flex-direction: column;
 
     
 }
 /* setting the correct color for the text in this section */
-.footer-text-1{
+.call-text-1{
     color:#E5E7EB;
     font-weight: bold;
     font-size: 20px;
 }
 
 
-.footer-text-2{
+.call-text-2{
     color:#E5E7EB;
     font-size: 15px;
 }
 
 
 /* basically creating the desired design for the button. It needs a lot of work. */
-.footer-btn{
+.call-btn{
     background-color: #3882F6;
     color: #E5E7EB;
     padding: 10px;
