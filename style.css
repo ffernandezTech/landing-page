@@ -256,4 +256,19 @@ as well as the padding. */
     border-radius: 10px;
 }
 
+/* this next part is for the footer */
+
+footer{
+    background-color: #1F2937;
+    
+    color: #E5E7EB;
+
+
+    height: 100px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
